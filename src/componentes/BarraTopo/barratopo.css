@@ -1,0 +1,44 @@
+.topo{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(52, 10, 65);
+    position: sticky;
+    top: 20px;
+    display: flex;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.topoLista{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.topoListaItem{
+    color: #ffffff;
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.topoCentro{
+    flex: 0;
+}
+
+.topoEsquerda, .topoDireita{
+    flex: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topoImg{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
