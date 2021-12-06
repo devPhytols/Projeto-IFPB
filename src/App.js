@@ -1,22 +1,28 @@
-import react from 'react';
 import BarraTopo from "./componentes/BarraTopo/BarraTopo";
-import Cabecalho from "./componentes/cabecalho/Cabecalho";
-import BarraLateral from "./componentes/barraLateral/BarraLateral";
-import AreaPostagem from "./componentes/areaPostagem/AreaPostagem";
-import "./App.css";
+import Inicial from "./paginas/inicial/inicial";
+import Sobre from "./paginas/sobre/sobre";
+
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
-    <>
+    <Router>
+
       <BarraTopo />
-      <Cabecalho />
 
-      <div className="appInicial">      
-      <AreaPostagem />
-      <BarraLateral />
-      </div>
+      <Switch>
 
-    </>
+        <Route exact path="/">
+          <Inicial />
+        </Route>
+
+        <Route path="/sobre">
+          <Sobre />
+        </Route>
+
+      </Switch>
+
+    </Router>
   );
 }
 

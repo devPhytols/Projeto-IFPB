@@ -1,6 +1,6 @@
 import FotoFundo from "../../imagens/bg.jpg";
 import "./cabecalho.css";
-import Body from "./bodycolor.css";
+import "./bodycolor.css";
 
 export default function Cabecalho(){
     return (

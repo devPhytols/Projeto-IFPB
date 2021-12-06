@@ -1,7 +1,6 @@
 import "./postagem.css";
-import FotoPost from "../../imagens/post1.jpg";
 
-export default function Postagem(){
+export default function Postagem( { post } ){
     return(
         <>
 
@@ -9,25 +8,24 @@ export default function Postagem(){
             
             <div className="post">
 
-                <img className="postImg" src={FotoPost} alt=""/>
+                <img className="postImg" src={post.thumb} alt=""/>
 
                 <div className="postInfo">
                     <div className="postCat">
-                        <span>Programação</span>
+                        <span>{post.info}</span>
                     </div>
 
                     <div className="postTitulo">
-                        <span>Titulo da Postagem</span>
+                        <span>{post.title}</span>
                     </div>
 
                     <div className="postData">
-                        <span>01 Dez 2021</span>
+                        <span>{post.date}</span>
                     </div>   
                 </div>
 
                 <p className="postDesc">
-                    Olá dev, esta é a minha primeira postagem nesse site!
-                    Olá dev, esta é a minha primeira postagem nesse site!
+                    {post.desc}
                 </p>
 
             </div>
