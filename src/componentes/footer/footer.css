@@ -1,42 +1,38 @@
 .site-footer
-{
+{ 
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   position: sticky;
-  background-color:#252525;
+  background-color:rgb(24, 24, 24);
+  width: 100%;
   padding:45px 0 20px;
   font-size:15px;
   line-height:24px;
-  color:#737373;
+  color:#a1a1a1;
+  text-align: center;
 }
 .site-footer i
 {
-  color:rgb(143, 37, 214);
+  color:rgb(41, 192, 61);
 }
 .site-footer a
 {
-  color:rgb(143, 37, 214);
+  color:rgb(41, 192, 61);
+  text-decoration: none;
 }
 .site-footer a:hover
 {
-  color:#3366cc;
+  color:#89f089;
   text-decoration:none;
 }
 
 .copyright-text
 {
-  margin:0
+  margin:0;
 }
-@media (max-width:991px)
-{
-  .site-footer [class^=col-]
-  {
-    margin-bottom:30px
-  }
-}
-@media (max-width:767px)
+@media (max-width:768px)
 {
   .site-footer
   {
-    padding-bottom:0
+    padding-bottom:0;
   }
 }

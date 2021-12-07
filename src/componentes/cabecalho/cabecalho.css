@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+/*
+Cores
+
+body: rgb(34, 34, 34)
+*/
+body {
+    background-color: rgb(34, 34, 34);
+}
 .cabecalho{
     margin-top: 100px;
 }
@@ -18,10 +27,20 @@
 }
 
 .cabecalhoTituloBaixo{
+    font-family: 'Pacifico', cursive;
+    text-shadow: 20px;
     position: absolute;
     top: 21%;
     font-size: 100px;
-    color: rgb(143, 37, 214);
+    color: rgb(41, 192, 61);
+}
+
+@media (max-width:768px)
+{
+  .cabecalhoTituloBaixo
+  {
+    font-size: 70px;
+  }
 }
 
 .cabecalhoImg{

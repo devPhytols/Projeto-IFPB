@@ -12,6 +12,7 @@ function inicial() {
         <div className="appInicial">      
         <AreaPostagem />
         </div>
+        <Footer />
       </>
     );
   }

@@ -1,6 +1,5 @@
-import FotoFundo from "../../imagens/bg.jpg";
+import background from "../../imagens/bg.jpg";
 import "./cabecalho.css";
-import "./bodycolor.css";
 
 export default function Cabecalho(){
     return (
@@ -9,12 +8,12 @@ export default function Cabecalho(){
             <div className="cabecalhoTitulo">
 
                 <span className="cabecalhoTituloCima"> Programação II</span>
-                <span className="cabecalhoTituloBaixo"> Site </span>
+                <span className="cabecalhoTituloBaixo"> Coleta e Reciclagem </span>
 
 
                 <img 
                     className="cabecalhoImg" 
-                    src={FotoFundo}
+                    src={background}
                     alt=""
                 />
 
