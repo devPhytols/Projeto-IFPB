@@ -13,7 +13,7 @@ export default function AreaPostagem(){
         info:"Baixando e Instalando Biblioteca",
         title:"Biblioteca React",
         date:"12 Nov 2021",
-        desc:"Codificando um WebSite...Codificando um WebSite...Codificando um WebSite...",
+        desc:"Codificando um WebSite...Codificando",
         thumb: picture1
     }
 
@@ -21,7 +21,7 @@ export default function AreaPostagem(){
         info:"Conteúdo do Último Slide",
         title:"React.js",
         date:"04 Dez 2021",
-        desc:"Codificando um WebSite...Codificando um WebSite...Codificando um WebSite...",
+        desc:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur venenatis blandit. Praesent vehicula, libero non pretium vulputate, lacus arcu facilisis lectus, sed feugiat tellus nulla eu dolor. Nulla porta bibendum lectus quis euismod. Aliquam volutpat ultricies porttitor. Cras risus nisi, accumsan vel cursus ut, sollicitudin vitae dolor. Fusce scelerisque eleifend lectus in bibendum. Suspendisse lacinia egestas felis a volutpat.",
         thumb: picture2
     }
 

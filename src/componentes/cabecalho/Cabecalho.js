@@ -1,4 +1,4 @@
-import background from "../../imagens/bg.jpg";
+import background from "../../imagens/bg.png";
 import "./cabecalho.css";
 
 export default function Cabecalho(){
