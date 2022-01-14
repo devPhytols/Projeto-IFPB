@@ -8,7 +8,7 @@ export default function BarraTopo(){
             <div class="container">
                 <div class="row">
                 <div class="col-sm-12 col-md-6">
-                    <p class="text-justify">Website Desenvolvido por <a href="https://github.com/devPhytols"><b>Fernandes</b></a> e <a href="https://github.com/"><b>Letuan</b></a> no 3° Périodo <i>IFPB</i>.</p>
+                    <p class="text-justify">Projeto Desenvolvido por <a href="https://github.com/devPhytols"><b>Fernandes</b></a>, <a href="https://github.com/"><b>Letuan</b></a> e <a href="https://github.com/"><b>Crislandia</b></a> no 3° Périodo <i>IFPB</i>.</p>
                 </div>
                 </div>
             </div>

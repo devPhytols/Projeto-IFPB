@@ -1,11 +1,11 @@
-import BarraLateral from "../../componentes/barraLateral/BarraLateral";
+import AreaTutorial from "../../componentes/areaTutorial/areaTutorial";
 import Footer from "../../componentes/footer/Footer";
-import "./sobre.css";
+import "./tutoriais.css";
 
 function Sobre() {
     return (
       <>
-        <BarraLateral />
+        <AreaTutorial />
         <Footer />
       </>
     );

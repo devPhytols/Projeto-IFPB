@@ -19,13 +19,6 @@ body {
     color: rgb(26, 26, 26);
 }
 
-.cabecalhoTituloCima{
-    position: absolute;
-    top: 16%;
-    font-size: 20px;
-    color: #ffffff;
-}
-
 .cabecalhoTituloBaixo{
     font-family: 'Pacifico', cursive;
     text-shadow: 20px;

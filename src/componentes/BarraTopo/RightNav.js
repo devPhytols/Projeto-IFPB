@@ -50,8 +50,8 @@ const RightNav = ({ open }) => {
         </NavLink>
       </li>
       <li>
-        <NavLink to='/dev'>
-        Desenvolvimento
+        <NavLink to='/tutoriais'>
+        Tutoriais
         </NavLink>
       </li>
       <li>
@@ -60,8 +60,8 @@ const RightNav = ({ open }) => {
         </NavLink>
       </li>
       <li>
-        <NavLink to='/avaliar'>
-        Nos Avalie
+        <NavLink to='/dev'>
+        Desenvolvimento
         </NavLink>
       </li>
       <Nav>
@@ -75,14 +75,14 @@ const RightNav = ({ open }) => {
           <NavLink to='/sobre' activeStyle>
             Sobre
           </NavLink>
-          <NavLink to='/dev' activeStyle>
-            Desenvolvimento
+          <NavLink to='/tutoriais' activeStyle>
+            Tutoriais
           </NavLink>
           <NavLink to='/artigos' activeStyle>
             Artigos
           </NavLink>
-          <NavLink to='/avaliar' activeStyle>
-            Nos Avalie
+          <NavLink to='/dev' activeStyle>
+            Desenvolvimento
           </NavLink>
           {/* <NavBtnLink to='/'>b2</NavBtnLink> */}
         </NavMenu>

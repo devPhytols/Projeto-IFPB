@@ -7,7 +7,6 @@ export default function Cabecalho(){
 
             <div className="cabecalhoTitulo">
 
-                <span className="cabecalhoTituloCima"> Programação II</span>
                 <span className="cabecalhoTituloBaixo"> Coleta e Reciclagem </span>
 
 
