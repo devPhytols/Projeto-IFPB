@@ -1,4 +1,5 @@
 import React from "react";
+import Logoifpb from "../../imagens/logoifpb.png";
 import "./footer.css";
 
 export default function BarraTopo(){
@@ -8,6 +9,7 @@ export default function BarraTopo(){
             <div class="container">
                 <div class="row">
                 <div class="col-sm-12 col-md-6">
+                    <img className="logoifpb" src={Logoifpb} alt=""/>
                     <p class="text-justify">Projeto Desenvolvido por <a href="https://github.com/devPhytols"><b>Fernandes</b></a>, <a href="https://github.com/"><b>Letuan</b></a> e <a href="https://github.com/"><b>Crislandia</b></a> no 3° Périodo <i>IFPB</i>.</p>
                 </div>
                 </div>

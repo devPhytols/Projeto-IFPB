@@ -41,12 +41,7 @@ const RightNav = ({ open }) => {
       <li>aaaa</li>
       <li>
         <NavLink to='/'>
-        Início
-        </NavLink>
-      </li>
-      <li>
-        <NavLink to='/sobre'>
-        Sobre
+        Artigos
         </NavLink>
       </li>
       <li>
@@ -55,13 +50,8 @@ const RightNav = ({ open }) => {
         </NavLink>
       </li>
       <li>
-        <NavLink to='/artigos'>
-        Artigos
-        </NavLink>
-      </li>
-      <li>
-        <NavLink to='/dev'>
-        Desenvolvimento
+        <NavLink to='/sobre'>
+        Sobre
         </NavLink>
       </li>
       <Nav>
@@ -70,24 +60,18 @@ const RightNav = ({ open }) => {
         </NavLink>
         <NavMenu>
           <NavLink to='/' activeStyle>
-            Início
-          </NavLink>
-          <NavLink to='/sobre' activeStyle>
-            Sobre
+            Artigos
           </NavLink>
           <NavLink to='/tutoriais' activeStyle>
             Tutoriais
           </NavLink>
-          <NavLink to='/artigos' activeStyle>
-            Artigos
-          </NavLink>
-          <NavLink to='/dev' activeStyle>
-            Desenvolvimento
+          <NavLink to='/sobre' activeStyle>
+            Sobre
           </NavLink>
           {/* <NavBtnLink to='/'>b2</NavBtnLink> */}
         </NavMenu>
         <NavBtn>
-          <NavBtnLink to='/formulario'>Formulário</NavBtnLink>
+          <NavBtnLink to='/formulario'>Avaliar Projeto</NavBtnLink>
         </NavBtn>
       </Nav>
     </Ul>

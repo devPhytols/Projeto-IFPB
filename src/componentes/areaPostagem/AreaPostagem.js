@@ -14,7 +14,8 @@ export default function AreaPostagem(){
         title:"Biblioteca React",
         date:"12 Nov 2021",
         desc:"Codificando um WebSite...Codificando",
-        thumb: picture1
+        thumb: picture1,
+        postlink: "https://google.com.br/"
     }
 
     let postagem2 = {
@@ -22,7 +23,8 @@ export default function AreaPostagem(){
         title:"React.js",
         date:"04 Dez 2021",
         desc:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur venenatis blandit. Praesent vehicula, libero non pretium vulputate, lacus arcu facilisis lectus, sed feugiat tellus nulla eu dolor. Nulla porta bibendum lectus quis euismod. Aliquam volutpat ultricies porttitor. Cras risus nisi, accumsan vel cursus ut, sollicitudin vitae dolor. Fusce scelerisque eleifend lectus in bibendum. Suspendisse lacinia egestas felis a volutpat.",
-        thumb: picture2
+        thumb: picture2,
+        postlink: "https://google.com.br/"
     }
 
     let postagem3 = {
@@ -30,7 +32,8 @@ export default function AreaPostagem(){
         title:"Bibliotecas",
         date:"04 Dez 2021",
         desc:"Codificando um WebSite...Codificando um WebSite...Codificando um WebSite...",
-        thumb: picture3
+        thumb: picture3,
+        postlink: "https://google.com.br/"
     }
     
     let postagem4 = {
@@ -38,7 +41,8 @@ export default function AreaPostagem(){
         title:"Estilização",
         date:"04 Dez 2021",
         desc:"Codificando um WebSite...Codificando um WebSite...Codificando um WebSite...",
-        thumb: picture4
+        thumb: picture4,
+        postlink: "https://google.com.br/"
     }
 
     let postagem5 = {
@@ -46,7 +50,8 @@ export default function AreaPostagem(){
         title:"Removendo Marcador",
         date:"04 Dez 2021",
         desc:"Codificando um WebSite...Codificando um WebSite...Codificando um WebSite...",
-        thumb: picture5
+        thumb: picture5,
+        postlink: "https://google.com.br/"
     }
 
     let postagem6 = {
@@ -54,7 +59,35 @@ export default function AreaPostagem(){
         title:"Conteúdo",
         date:"04 Dez 2021",
         desc:"Codificando um WebSite...Codificando um WebSite...Codificando um WebSite...",
-        thumb: picture6
+        thumb: picture6,
+        postlink: "https://google.com.br/"
+    }
+
+    let postagem7 = {
+        info:"Mudando Conteúdos",
+        title:"Conteúdo",
+        date:"04 Dez 2021",
+        desc:"Codificando um WebSite...Codificando um WebSite...Codificando um WebSite...",
+        thumb: picture6,
+        postlink: "https://google.com.br/"
+    }
+
+    let postagem8 = {
+        info:"Mudando Conteúdos",
+        title:"Conteúdo",
+        date:"04 Dez 2021",
+        desc:"Codificando um WebSite...Codificando um WebSite...Codificando um WebSite...",
+        thumb: picture6,
+        postlink: "https://google.com.br/"
+    }
+
+    let postagem9 = {
+        info:"Mudando Conteúdos",
+        title:"Conteúdo",
+        date:"04 Dez 2021",
+        desc:"Codificando um WebSite...Codificando um WebSite...Codificando um WebSite...",
+        thumb: picture6,
+        postlink: "https://google.com.br/"
     }
 
     return(
@@ -67,6 +100,9 @@ export default function AreaPostagem(){
             <Postagem post={postagem4} />
             <Postagem post={postagem5} />
             <Postagem post={postagem6} />
+            <Postagem post={postagem7} />
+            <Postagem post={postagem8} />
+            <Postagem post={postagem9} />
         </div>
 
         </>

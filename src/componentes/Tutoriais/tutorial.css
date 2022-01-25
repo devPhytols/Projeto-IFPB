@@ -1,4 +1,4 @@
-.post{
+.posttutorial{
     background-color: rgb(41, 41, 41);
     border-radius: 10px;
     width: 385px;
@@ -10,14 +10,14 @@
     transition: all 0.3s;
 }
 
-.post:hover{
+.posttutorial:hover{
     background-color: rgb(77, 77, 77);
     -moz-transform: scale(1.1);
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
 
-.postImg{
+.postImgtutorial{
     width: 100%;
     height: 280px;
     object-fit: cover;
@@ -28,18 +28,18 @@
     transition: all 0.3s;
 }
 
-.postImg:hover{
+.postImgtutorial:hover{
     cursor: pointer;
     filter: blur(1px);
 }
 
-.postInfo{
+.postInfotutorial{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.postCat{
+.postCattutorial{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 12px;
     color: #999;
@@ -49,7 +49,7 @@
     cursor: pointer;
 }
 
-.postTitulo{
+.postTitulotutorial{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 18px;
     color: rgb(41, 192, 61);
@@ -58,16 +58,16 @@
     cursor: pointer;
 }
 
-.postTitulo a{
+.postTitulotutorial a{
     color: rgb(41, 192, 61);
     text-decoration: none;
 }
 
-.postTitulo:hover{
+.postTitulotutorial:hover{
     color: #ffffff;
 }
 
-.postData{
+.postDatatutorial{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: italic;
     font-size: 13px;
@@ -76,7 +76,7 @@
     align-items: center;
 }
 
-.postDesc{
+.postDesctutorial{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 11px;
     color: #d1d1d1;

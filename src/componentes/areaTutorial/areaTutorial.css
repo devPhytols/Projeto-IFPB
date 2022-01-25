@@ -1,56 +1,7 @@
-.barraLadotuto{
-    flex: 3;
+.poststutorial{
+    flex: 6;
+    display: flex;
+    flex-wrap: wrap;
     margin: 20px;
-    padding-bottom: 30px;
-    color: #ffffff;
-    background-color: rgb(41, 41, 41);
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.barraLadoItemtuto{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.barraLadoTitulotuto{
-    margin: 10px;
-    padding: 5px;
-    width: 80%;
-    border-top: 1px solid #3d3d3d;
-    border-bottom: 1px solid #3d3d3d;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 18px;
-    color: #ffffff;
-    font-weight: 600;
-    line-height: 20px;
-    text-align: center;
-}
-
-.barraLadoItemtuto > img{
-    margin-top: 10px;
-}
-
-.barraLadoItemtuto > p{
-    padding: 30px;
-}
-
-.barraLadoListatuto{
-    list-style: none;
-    margin-bottom: 30px;
-}
-
-.barraLadoListaItemtuto{
-    display: inline;
-    width: 50%;
-    margin: 15px;
-    cursor: pointer;
-    color: rgb(86, 41, 192);
-}
-
-.barraLadoListaItemtuto:hover{
- color: rgb(252, 251, 253);
+    margin-left: 40px;
 }

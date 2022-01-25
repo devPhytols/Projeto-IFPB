@@ -8,7 +8,7 @@ export default function Postagem( { post } ){
             
             <div className="post">
 
-                <img className="postImg" src={post.thumb} alt=""/>
+            <a href={post.postlink} target="_blank"><img className="postImg" src={post.thumb} alt=""/></a>
 
                 <div className="postInfo">
                     <div className="postCat">
@@ -16,7 +16,7 @@ export default function Postagem( { post } ){
                     </div>
 
                     <div className="postTitulo">
-                        <span>{post.title}</span>
+                        <a href={post.postlink} target="_blank">{post.title}</a>
                     </div>
 
                     <div className="postData">
