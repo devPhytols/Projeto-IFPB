@@ -1,93 +1,54 @@
 import "./areaTutorial.css";
 import Postagem from "../Tutoriais/tutorial";
-import picture1 from "../../imagens/post1.jpg";
-import picture2 from "../../imagens/post2.jpg";
-import picture3 from "../../imagens/post3.jpg";
-import picture4 from "../../imagens/postcss.jpg";
-import picture5 from "../../imagens/post5.jpg";
-import picture6 from "../../imagens/post6.jpg";
+import picture1 from "../../imagens/papel-reciclado.gif";
+import picture2 from "../../imagens/lixo-eletronico.gif";
+import picture3 from "../../imagens/lixo-organico.gif";
+import picture4 from "../../imagens/lixo-ino.gif";
+import picture5 from "../../imagens/separar-lixo.gif";
+import picture6 from "../../imagens/residuos-solidos.gif";
 
 export default function AreaTutorial(){
 
     let postagem1 = {
-        info:"Baixando e Instalando Biblioteca",
-        title:"Biblioteca React",
-        date:"12 Nov 2021",
-        desc:"Codificando um WebSite...Codificando",
+        info:"Como fazer artesanalmente papel reciclado.",
+        title:"Como fazer papel reciclado",
         thumb: picture1,
-        postlink: "https://google.com.br/"
+        postlink: "https://www.youtube.com/watch?v=2ui29vA1iCU"
     }
 
     let postagem2 = {
-        info:"Conteúdo do Último Slide",
-        title:"React.js",
-        date:"04 Dez 2021",
-        desc:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur venenatis blandit. Praesent vehicula, libero non pretium vulputate, lacus arcu facilisis lectus, sed feugiat tellus nulla eu dolor. Nulla porta bibendum lectus quis euismod. Aliquam volutpat ultricies porttitor. Cras risus nisi, accumsan vel cursus ut, sollicitudin vitae dolor. Fusce scelerisque eleifend lectus in bibendum. Suspendisse lacinia egestas felis a volutpat.",
+        info:"Como é feita a reciclagem do lixo eletrônico.",
+        title:"Reciclagem do Lixo Eletrônico",
         thumb: picture2,
-        postlink: "https://google.com.br/"
+        postlink: "https://www.youtube.com/watch?v=jr4--3Mkhqs"
     }
 
     let postagem3 = {
-        info:"Instalando Bibliotecas",
-        title:"Bibliotecas",
-        date:"04 Dez 2021",
-        desc:"Codificando um WebSite...Codificando um WebSite...Codificando um WebSite...",
+        info:"Como reclicar lixo orgânico em casa.",
+        title:"Como Reciclar Lixo Orgânico",
         thumb: picture3,
-        postlink: "https://google.com.br/"
+        postlink: "https://www.youtube.com/watch?v=bh8S0q2BEqM"
     }
     
     let postagem4 = {
-        info:"Estilizando Conteúdos",
-        title:"Estilização",
-        date:"04 Dez 2021",
-        desc:"Codificando um WebSite...Codificando um WebSite...Codificando um WebSite...",
+        info:"Reciclando o lixo inorgânico e diferenciando.",
+        title:"Como Reciclar Lixo Inorgânico",
         thumb: picture4,
-        postlink: "https://google.com.br/"
+        postlink: "https://www.youtube.com/watch?v=rf6sXx4CUVo"
     }
 
     let postagem5 = {
-        info:"Estilizando Links",
-        title:"Removendo Marcador",
-        date:"04 Dez 2021",
-        desc:"Codificando um WebSite...Codificando um WebSite...Codificando um WebSite...",
+        info:"Como separar de forma correta o lixo reciclável.",
+        title:"Como Separar o Lixo Corretamente",
         thumb: picture5,
-        postlink: "https://google.com.br/"
+        postlink: "https://www.ecycle.com.br/separacao-de-lixo/"
     }
 
     let postagem6 = {
-        info:"Mudando Conteúdos",
-        title:"Conteúdo",
-        date:"04 Dez 2021",
-        desc:"Codificando um WebSite...Codificando um WebSite...Codificando um WebSite...",
+        info:"Como trabalhar com a reciclagem de resíduos sólidos.",
+        title:"Como Reciclar Resíduos Sólidos",
         thumb: picture6,
-        postlink: "https://google.com.br/"
-    }
-
-    let postagem7 = {
-        info:"Mudando Conteúdos",
-        title:"Conteúdo",
-        date:"04 Dez 2021",
-        desc:"Codificando um WebSite...Codificando um WebSite...Codificando um WebSite...",
-        thumb: picture6,
-        postlink: "https://google.com.br/"
-    }
-
-    let postagem8 = {
-        info:"Mudando Conteúdos",
-        title:"Conteúdo",
-        date:"04 Dez 2021",
-        desc:"Codificando um WebSite...Codificando um WebSite...Codificando um WebSite...",
-        thumb: picture6,
-        postlink: "https://google.com.br/"
-    }
-
-    let postagem9 = {
-        info:"Mudando Conteúdos",
-        title:"Conteúdo",
-        date:"04 Dez 2021",
-        desc:"Codificando um WebSite...Codificando um WebSite...Codificando um WebSite...",
-        thumb: picture6,
-        postlink: "https://google.com.br/"
+        postlink: "https://www.youtube.com/watch?v=nZs4VRqJ_O8"
     }
 
     return(
@@ -100,9 +61,6 @@ export default function AreaTutorial(){
             <Postagem post={postagem4} />
             <Postagem post={postagem5} />
             <Postagem post={postagem6} />
-            <Postagem post={postagem7} />
-            <Postagem post={postagem8} />
-            <Postagem post={postagem9} />
         </div>
 
         </>

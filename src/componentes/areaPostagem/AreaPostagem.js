@@ -1,91 +1,91 @@
 import "./areapostagem.css";
 import Postagem from "../postagem/Postagem";
 import picture1 from "../../imagens/post1.jpg";
-import picture2 from "../../imagens/post2.jpg";
-import picture3 from "../../imagens/post3.jpg";
-import picture4 from "../../imagens/postcss.jpg";
-import picture5 from "../../imagens/post5.jpg";
-import picture6 from "../../imagens/post6.jpg";
+import picture2 from "../../imagens/post1.jpg";
+import picture3 from "../../imagens/post1.jpg";
+import picture4 from "../../imagens/post1.jpg";
+import picture5 from "../../imagens/post1.jpg";
+import picture6 from "../../imagens/post1.jpg";
 
 export default function AreaPostagem(){
 
     let postagem1 = {
-        info:"Baixando e Instalando Biblioteca",
+        info:"Sem Informações",
         title:"Biblioteca React",
         date:"12 Nov 2021",
-        desc:"Codificando um WebSite...Codificando",
+        desc:"Coleta e reciclagem de lixo no município de Pedras de Fogo - PB.",
         thumb: picture1,
         postlink: "https://google.com.br/"
     }
 
     let postagem2 = {
-        info:"Conteúdo do Último Slide",
+        info:"Sem Informações",
         title:"React.js",
         date:"04 Dez 2021",
-        desc:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur venenatis blandit. Praesent vehicula, libero non pretium vulputate, lacus arcu facilisis lectus, sed feugiat tellus nulla eu dolor. Nulla porta bibendum lectus quis euismod. Aliquam volutpat ultricies porttitor. Cras risus nisi, accumsan vel cursus ut, sollicitudin vitae dolor. Fusce scelerisque eleifend lectus in bibendum. Suspendisse lacinia egestas felis a volutpat.",
+        desc:"Coleta e reciclagem de lixo no município de Pedras de Fogo - PB.",
         thumb: picture2,
         postlink: "https://google.com.br/"
     }
 
     let postagem3 = {
-        info:"Instalando Bibliotecas",
+        info:"Sem Informações",
         title:"Bibliotecas",
         date:"04 Dez 2021",
-        desc:"Codificando um WebSite...Codificando um WebSite...Codificando um WebSite...",
+        desc:"Coleta e reciclagem de lixo no município de Pedras de Fogo - PB.",
         thumb: picture3,
         postlink: "https://google.com.br/"
     }
     
     let postagem4 = {
-        info:"Estilizando Conteúdos",
+        info:"Sem Informações",
         title:"Estilização",
         date:"04 Dez 2021",
-        desc:"Codificando um WebSite...Codificando um WebSite...Codificando um WebSite...",
+        desc:"Coleta e reciclagem de lixo no município de Pedras de Fogo - PB.",
         thumb: picture4,
         postlink: "https://google.com.br/"
     }
 
     let postagem5 = {
-        info:"Estilizando Links",
+        info:"Sem Informações",
         title:"Removendo Marcador",
         date:"04 Dez 2021",
-        desc:"Codificando um WebSite...Codificando um WebSite...Codificando um WebSite...",
+        desc:"Coleta e reciclagem de lixo no município de Pedras de Fogo - PB.",
         thumb: picture5,
         postlink: "https://google.com.br/"
     }
 
     let postagem6 = {
-        info:"Mudando Conteúdos",
+        info:"Sem Informações",
         title:"Conteúdo",
         date:"04 Dez 2021",
-        desc:"Codificando um WebSite...Codificando um WebSite...Codificando um WebSite...",
+        desc:"Coleta e reciclagem de lixo no município de Pedras de Fogo - PB.",
         thumb: picture6,
         postlink: "https://google.com.br/"
     }
 
     let postagem7 = {
-        info:"Mudando Conteúdos",
+        info:"Sem Informações",
         title:"Conteúdo",
         date:"04 Dez 2021",
-        desc:"Codificando um WebSite...Codificando um WebSite...Codificando um WebSite...",
+        desc:"Coleta e reciclagem de lixo no município de Pedras de Fogo - PB.",
         thumb: picture6,
         postlink: "https://google.com.br/"
     }
 
     let postagem8 = {
-        info:"Mudando Conteúdos",
+        info:"Sem Informações",
         title:"Conteúdo",
         date:"04 Dez 2021",
-        desc:"Codificando um WebSite...Codificando um WebSite...Codificando um WebSite...",
+        desc:"Coleta e reciclagem de lixo no município de Pedras de Fogo - PB.",
         thumb: picture6,
         postlink: "https://google.com.br/"
     }
 
     let postagem9 = {
-        info:"Mudando Conteúdos",
+        info:"Sem Informações",
         title:"Conteúdo",
         date:"04 Dez 2021",
-        desc:"Codificando um WebSite...Codificando um WebSite...Codificando um WebSite...",
+        desc:"Coleta e reciclagem de lixo no município de Pedras de Fogo - PB.",
         thumb: picture6,
         postlink: "https://google.com.br/"
     }

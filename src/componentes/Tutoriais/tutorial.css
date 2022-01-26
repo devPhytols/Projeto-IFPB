@@ -12,14 +12,11 @@
 
 .posttutorial:hover{
     background-color: rgb(77, 77, 77);
-    -moz-transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
 }
 
 .postImgtutorial{
     width: 100%;
-    height: 280px;
+    height: 200px;
     object-fit: cover;
     border-radius: 7px;
     max-width: 100%;
@@ -45,6 +42,7 @@
     color: #999;
     line-height: 20px;
     margin-top: 15px;
+    margin-bottom: 5px;
     margin-right: 10px;
     cursor: pointer;
 }
